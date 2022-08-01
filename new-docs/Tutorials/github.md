@@ -53,3 +53,5 @@ Once you have named the file you can start adding content, but for now, lets jus
 Now that you have your folder and first file, you can add the rest of the content that you want. You can edit a document by navigating to it, clicking into it, and then clicking on the pencil icon at the top of the input box. 
 
 If you are using the templates to create your application (which I recommend) you now have copies of those templates in your repository that you can copy from directly. These files are all written with markdown, which is a simple text editing syntax. 
+
+to be continued...

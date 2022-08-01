@@ -1,9 +1,5 @@
 # Yam’s Mission
 
-🍠 Innovation required. Injustice rejected. Do-ers empowered.
-
----
-
 Yam is a token-holder run Decentralized Autonomous Organization (DAO) innovating at the intersection of decentralized governance and programmable finance. It is driven by shared financial incentives with the goal of using the new decentralized financial and cultural primitives available on Ethereum to explore new ways of collaboration, organization, and financial empowerment for its members and the world.
 
 Yam's mission and vision is supported via three guiding pillars:
@@ -23,3 +19,5 @@ Yam seeks to enable the promise of what [Web3](https://ethereum.org/en/web3/) ca
 ## How Yam is different
 
 The Web3 ecosystem is full of organizations that make different trade-offs for decentralization, communal ownership, efficiency, security, and profit. YAM has made a choice to prioritize decentralization, permissionlessness, and communal ownership and refuses to stray from these core values, instead driving confidently forward to show that a new, better world awaits.
+
+### Innovation required. Injustice rejected. Do-ers empowered. 🍠
