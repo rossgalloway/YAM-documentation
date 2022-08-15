@@ -11,7 +11,7 @@ Yam DAO is a community run Decentralized Autonomous Organization (DAO) innovatin
 
 ## I thought YAM was a rebasing token. What happened?
 
-On December 29th, 2020 the Yam community voted to disable the rebasing functionality of Yam and the scaling factor of Yam has been fixed at ~2.50. Read more on the [History](/new-docs/History_new.md) page.
+On December 29th, 2020 the Yam community voted to disable the rebasing functionality of Yam and the scaling factor of Yam has been fixed at ~2.50. Read more on the [History](History_new.md) page.
 
 ## What is BOU YAM?
 
@@ -25,7 +25,7 @@ As a stopgap during the period when the YAM contracts were being fixed and audit
 
 Once the new contracts were ready and audited, they were deployed with a new governance token (YAM v3). This is the governance token for the DAO and is used to vote on governance proposals and treasury allocations. YAM v2 can still be migrated to YAM v3 [here](https://yam.finance/#/Migrate).
 
-For a full list of contract addresses, visit the [Contract Addresses Page](/new-docs/Contract_addresses.md)
+For a full list of contract addresses, visit the [Contract Addresses Page](Contract_addresses.md)
 
 ## Are there any farming or liquidity incentives for YAM tokens?
 
