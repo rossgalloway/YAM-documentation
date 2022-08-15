@@ -7,7 +7,7 @@ sidebar_label: "Frequently Asked Questions (FAQ)"
 
 ## What is YAM?
 
-Yam DAO is a community run Decentralized Autonomous Organization (DAO) innovating at the intersection of decentralized governance and programmable finance. YAM is the governance token for the YAM protocol. Using token voting, YAM holders have direct influence over the YAM treasury and direction of the protocol. Governance discussions take place on [Discord]() and the [Yam Governance Forum]().
+Yam DAO is a community run Decentralized Autonomous Organization (DAO) innovating at the intersection of decentralized governance and programmable finance. YAM is the governance token for the YAM protocol. Using token voting, YAM holders have direct influence over the YAM treasury and direction of the protocol. Governance discussions take place on [Discord](https://discord.gg/qceE8SQjXs) and the [Yam Governance Forum](https://forum.yam.finance/).
 
 ## I thought YAM was a rebasing token. What happened?
 
@@ -23,7 +23,7 @@ YAM has had a colorful history and you can think of these different versions as 
 
 As a stopgap during the period when the YAM contracts were being fixed and audited, the V2 token was used to perform governance tasks. A summary of the V2 interim governance period can be found [here](https://medium.com/yam-finance/the-road-to-v3-yamv2-interim-governance-summary-f17ba4a9d1aa). V1 tokens can no longer be migrated into v2 or v3 tokens due to the nature of the bug that caused the need for an emergency migration.
 
-Once the new contracts were ready and audited, they were deployed with a new governance token (YAM v3). This is the governance token for the DAO and is used to vote on governance proposals and treasury allocations. YAM v2 can still be migrated to YAM v3 [here] <https://yam.finance/#/Migrate>.
+Once the new contracts were ready and audited, they were deployed with a new governance token (YAM v3). This is the governance token for the DAO and is used to vote on governance proposals and treasury allocations. YAM v2 can still be migrated to YAM v3 [here](https://yam.finance/#/Migrate).
 
 For a full list of contract addresses, visit the [Contract Addresses Page](/new-docs/Contract_addresses.md)
 
