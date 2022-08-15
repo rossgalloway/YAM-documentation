@@ -1,3 +1,8 @@
+---
+sidebar_position: 2
+sidebar_label: "Yam DAO's Mission"
+---
+
 # Yam’s Mission
 
 Yam is a token-holder run Decentralized Autonomous Organization (DAO) innovating at the intersection of decentralized governance and programmable finance. It is driven by shared financial incentives with the goal of using the new decentralized financial and cultural primitives available on Ethereum to explore new ways of collaboration, organization, and financial empowerment for its members and the world.

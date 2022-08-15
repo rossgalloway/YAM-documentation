@@ -1,4 +1,9 @@
-# Important YAM Addresses
+---
+sidebar_position: 5
+sidebar_label: "Contract Addresses"
+---
+
+# Important YAM Addresses 
 
 ## ✅ Current Token Version
 

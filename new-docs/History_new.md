@@ -1,12 +1,17 @@
+---
+sidebar_position: 3
+sidebar_label: "History"
+---
+
 # History
 
 ## The Birth of YAM
 
-YAM was created in August of 2020 in a week long *fair launch* where two fifths of the supply was given away to the DeFi Community. This was a false start as a bug in the code required a migration to a new temporary token contract, before finally launching with corrected and audited code a month later in September. the YAM token was an experiment with a mechanism called rebasing (see ampleforth, but in a nutshell it is an accounting trick to move token volatility from price into supply) as a way to build a community managed treasury. YAM was designed so that as the price of the token increased, some of the value inherent in that increase flowed into the treasury ([the details are complicated]()). This succeeded in building a $3 million dollar treasury for the DAO over a few months, controlled by YAM token holders. The purpose and use of this treasury was not specified by the project creators, all of whom have now stepped away from the project to let it truly be community run.
+YAM was created in August of 2020 and released in a week long *fair launch* where two fifths of the supply was given away to the DeFi Community. This was a false start as a bug in the code required a migration to a new temporary token contract, before finally launching with corrected and audited code a month later in September. the YAM token was an experiment with a mechanism called rebasing (see ampleforth, but in a nutshell it is an accounting trick to move token volatility from price into supply) as a way to build a community managed treasury. YAM was designed so that as the price of the token increased, some of the value inherent in that increase flowed into the treasury ([the details are complicated]()). This succeeded in building a $3 million dollar treasury for the DAO over a few months, controlled by YAM token holders. The purpose and use of this treasury was left open ended by the project creators, all of whom have now stepped away from the project to let it truly be community run.
 
 ## The death of Rebasing
 
-In crypto, nothing stays simple for long. Although the treasury was growing and a small community had formed to tend to it and the protocol, many were not happy with how the rebasing mechanism worked. It was deemed to take an excessive amount of value from periods of growth, and was criticized for not having a mechanism to return value in periods where the price fell. After lots of back and forth, disputes, and arguments, a decision was made to stop the rebasing functionality in the token and turn it into a vanilla governance token. In late December of 2020, governance voted to turn off rebasing.
+In crypto, nothing stays simple for long. Although the treasury was growing and a small community had formed to tend to it and the protocol, many were not happy with how the rebasing mechanism worked. It was deemed to extract an excessive amount of value from periods of growth, and was criticized for not having a mechanism to return value in periods where the price fell. After lots of back and forth, disputes and arguments, a decision was made to stop the rebasing functionality in the token and turn it into a vanilla governance token. In late December of 2020, governance voted to turn off rebasing.
 
 ## A (somewhat) Fresh Start
 

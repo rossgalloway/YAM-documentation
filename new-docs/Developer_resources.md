@@ -1,3 +1,8 @@
+---
+sidebar_position: 7
+sidebar_label: "Developer Resources"
+---
+
 # Developer Resources
 
 ## General

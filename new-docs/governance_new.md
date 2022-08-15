@@ -1,3 +1,8 @@
+---
+sidebar_position: 4
+sidebar_label: "Governance Overview"
+---
+
 # Governance
 
 ## Overview
@@ -7,7 +12,7 @@ YAM launched with fully decentralized governance from Day 1, built on the Compou
 - Consensus: This is how the DAO decides what to do. It is an "off-chain" process. This step uses YAM Improvement Proposals (YIPs) and Grant Administration Proposals (GAPs).
 - Execution: This is how the DAO implements what it has decided upon. It is an "on-chain" process. This step uses YAM Execution Proposals (YXPs).
 
-The [Gov-Ops Council]() provides assistance with the governance process, including facilitation for determining consensus and execution for routine and minimal proposals.
+The [Gov-Ops Council]() provides assistance with the governance process, including facilitation for determining consensus and execution of routine and minimal proposals.
 
 You can read more about why the process is structured this way [here]()
 
@@ -19,12 +24,13 @@ The YAM governance process has recently had an overhaul. The core governance con
 
 :::
 
-There are 2 types of governance interactions: DAO upgrades (YIPs) and Grant Administration (GAPs). Both these types follow the consensus and execution steps, but have different requirements and are used for different types of proposals. YIPs are used to make changes to the DAO and GAPs are used to allocate funding for different projects.
+There are 2 types of consensus governance interactions: DAO upgrades (YIPs) and Grant Administration (GAPs). Both these types follow the consensus and execution steps, but have different requirements and are used for different types of proposals. YIPs are used to make changes to the DAO and GAPs are used to allocate funding for different projects.
 
 ### DAO Upgrades (YIP Process)
 
-DAO upgrades include changes to the existing rules or operation of the DAO. These upgrades may be proposed as the result of work from a grant, or simply as an idea to improve something. 
-1. DAO upgrades follow to YIP governance process, which begins on the [Yam Governance Forum]() and [Yam Discord]() where ideas are initially discussed by token holders. 
+DAO upgrades include changes to the existing rules or operation of the DAO. These upgrades may be proposed as the result of work from a grant, or simply as an idea to improve something.
+
+1. DAO upgrades follow the YIP governance process, which begins on the [Yam Governance Forum]() and [Yam Discord]() where ideas are initially discussed by token holders. 
 2. Once the idea has been discussed, the proposer writes and posts their proposal to the [proposals section of the forum](). The community signals its interest and may suggest modifications to the proposal.
 3. After recieving feedback a vote on the proposal can be created on [Snapshot]() (off-chain voting), where tokenholders vote on it.
 
@@ -49,7 +55,7 @@ An example of a YIP that doesn't require additional code work is a rebalance of 
 Grant Administration is the process by which the DAO determines what it is going to fund. Grants are the vehicles the DAO uses to pay for work done on its behalf. This process includes the initial application grant, the vetting of the proposed work to be done, and the review of deliverables once completed. 
 
 1. Grant applicants start by submitting a new Silo Creation Application (if an applicable silo doesn't exist) or a Silo Extension Application (if one does). Token holders can then give feedback on the idea included in the application, allowing the applicant to cater their proposal to the DAO's needs and preferences. 
-2. The next step is the creation of a specifications document for the project, which defines the scope, deliverables, requirements, and specifications for the project that will be funded by the grant. The specification document is submitted both on the YAM Governance Forum and on Github so it can be added to the YAM Governance Repository. It will be reviewed by the Gov-Ops council for completeness and by token holders for quality.
+2. The next step is the creation of a specifications document, which defines the scope, deliverables, requirements, and specifications for the project that will be funded by the grant. The specification document is submitted both on the YAM Governance Forum and on Github so it can be added to the YAM Governance Repository. It will be reviewed by the Gov-Ops council for completeness and by token holders for quality.
 3. Once the specifications document is complete, the applicant then submits a grant proposal, also on the forum and Github. This document should reference the specification document and propose a request for funds to do the work, as well as a timeline to do so.
 4. After posting the grant application, the applicant should create a snapshot vote for token holders to determine whether they want to fund the grant or not.
 
@@ -63,22 +69,37 @@ Grant Administration is the process by which the DAO determines what it is going
 
 ### Proposing and reaching Quorum for Consensus Votes (Snapshot)
 
-A proposer must have > 100 BoU YAM (251 scaled) delegated to their address.
+To propose a snapshot vote, A proposer must have > 100 BoU YAM (251 scaled) delegated to their address.
 
-In order to pass, a proposal must reach quorum which means that a certain threshold of total voting power votes "for" the proposal. For snapshot votes, this number is 200,000 BoU YAM ([what does BoU mean?]()) or 500,000 scaled YAM, equivalent to 4% of the initial token supply.
+In order to pass, a proposal must reach quorum which means that a certain threshold of total voting power votes "for" the proposal. For snapshot votes, this number is 200,000 BoU YAM ([what does BoU mean?](/new-docs/FAQ_new.md)) or 500,000 scaled YAM, equivalent to 4% of the initial token supply.
 
-## Execution Process (on-chain)
+## Execution Process (on-chain YXP Process)
 
-The execution process...
+The execution process (YXP) starts after the consensus process has completed. As the name suggests, this is how any on-chain actions required by YIPs or GAPs are executed. On-chain execution proposals use the DAO's Compound Governor based smart contracts and are able to interact directly with the treasury and other smart contracts owned by the Yam DAO. While anyone can propose an on-chain vote by callign the governor contracts directly, the Gov-Ops council is empowered to submit proposals on behalf of the token holders. These (typically monthly) proposals will include all the routine actions for that month that have been approved via consensus voting (YIPs and GAPs). For more information about what is considered routine, see [this post](https://github.com/yam-finance/documents/blob/master/govops/govops-council.md)
 
-For on-chain voting, a user must have 50,000 BoU YAMs delegated to their address This is equivalent to 1% of the initial token supply.
+Separating the execution from the consensus phase has 2 advantages. First, it allows token holders to vote for free in the consensus phase, using snapshot. Second, it bundles all the smart contract execution, which requires vetting, into one package that can be reviewed and tested all together. On-chain proposals will be posted to the YAM organization Github and announced on discord when they are ready for review. After at least 2 days of open review, if not problems are found, the vote and transactions will be submitted to the governor contract for token holders to vote on.
+
+If the transactions required to be executed fall outside of the scope of work of the Gov-Ops council then the code required to execute those transactions will need to be written (or coordinated) by the party submitting the consensus votes. Whether that code will need to be audited will be determined on a case by case basis by the Gov-Ops council.
+
+#### YXP Timeline
+
+- Pre-requisite: Pass consensus phase
+- Coordinate with Gov-Ops council on the code needed to execute the proposal. If needed, write, or coordinate the writing of that code: As long as needed.
+- Proposal submission and voting: 2 days.
+- Timelock delay: 5 days.
+
+### Proposing and reaching Quorum for Execution Votes
+
+To propose an on-chain vote, the proposer must have 50,000 BoU YAM (125,000 scaled) delegated to their address. They must maintain this minimum amount of YAM in their wallet throughout the entire voting and timelock period.
+
+In order to pass, a proposal must reach quorum which means that a certain threshold of total voting power votes "for" the proposal. For on-chain votes, this number is 200,000 BoU YAM ([what does BoU mean?]()) or 500,000 scaled YAM, equivalent to ~4% of the initial token supply.
 
 ## Other important information
 
 ### Delegation
 
-In order to vote, you must [delegate your vote]() to yourself or to someone else. This applies to off-chain snapshot voting as well. Any YAM tokens being used as an LP in Yam's incentivizer farming Yams are automatically delegated to self. You can currently delegate to yourself via [yam.finance](), and we are working on an interface to delegate to other addresses. You can also delegate via [etherscan]() directly.
+In order to vote, you must [delegate your vote]() to yourself or to someone else. This applies to off-chain snapshot voting as well. Any YAM tokens being used as an LP in Yam's incentivizer farming Yams are automatically delegated to self. You can currently delegate to yourself or others via [yam.finance](). You can also delegate via [etherscan]() directly. 
 
 ### Voting with LP tokens
 
-Only if you provide liquidity to [Sushiswap]() Yam/ETH pool and stake on Yam's incentivizer using [yam.finance/farm](). Don't forget to register to vote on [yam.finance/governance](), only needs to be done once. Voting power is determined by distributing the voting power of YAM held in the YAM/ETH Sushiswap pool, but distributed to only YAM Incentivizer stakers. This was done to mitigate flashloan threats in voting, so the Incentivizer contract keeps a record of the necessary values at needed block heights to facilitate those mitigations.
+Liquidity Providers to the [Sushiswap]() Yam/ETH pool who stake thier SLP tokens in Yam's [incentivizer]() can vote with those tokens as well. You need to register to vote (delegate to yourself) on [yam.finance/governance](). If you have YAM tokens in both a wallet and in the incentivizer contract, we recommend delegating via etherscan so that both locations are counted toward your total voting power. If you need help with this, please come by the discord and ask.
