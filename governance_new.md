@@ -71,7 +71,7 @@ Grant Administration is the process by which the DAO determines what it is going
 
 To propose a snapshot vote, A proposer must have > 100 BoU YAM (251 scaled) delegated to their address.
 
-In order to pass, a proposal must reach quorum which means that a certain threshold of total voting power votes "for" the proposal. For snapshot votes, this number is 200,000 BoU YAM ([what does BoU mean?](/new-docs/FAQ_new.md)) or 500,000 scaled YAM, equivalent to 4% of the initial token supply.
+In order to pass, a proposal must reach quorum which means that a certain threshold of total voting power votes "for" the proposal. For snapshot votes, this number is 200,000 BoU YAM ([what does BoU mean?](FAQ_new.md)) or 500,000 scaled YAM, equivalent to 4% of the initial token supply.
 
 ## Execution Process (on-chain YXP Process)
 
@@ -92,7 +92,7 @@ If the transactions required to be executed fall outside of the scope of work of
 
 To propose an on-chain vote, the proposer must have 50,000 BoU YAM (125,000 scaled) delegated to their address. They must maintain this minimum amount of YAM in their wallet throughout the entire voting and timelock period.
 
-In order to pass, a proposal must reach quorum which means that a certain threshold of total voting power votes "for" the proposal. For on-chain votes, this number is 200,000 BoU YAM ([what does BoU mean?](/new-docs/FAQ_new.md)) or 500,000 scaled YAM, equivalent to ~4% of the initial token supply.
+In order to pass, a proposal must reach quorum which means that a certain threshold of total voting power votes "for" the proposal. For on-chain votes, this number is 200,000 BoU YAM ([what does BoU mean?](FAQ_new.md)) or 500,000 scaled YAM, equivalent to ~4% of the initial token supply.
 
 ## Other important information
 
