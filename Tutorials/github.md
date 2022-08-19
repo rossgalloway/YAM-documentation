@@ -1,6 +1,8 @@
-# Github
+# Getting Started With Github
 
-👋 This tutorial will walk you through uploading and editing documents on Github so that they will display on the YAM Governance Repository (This website!). Github can seem scary when you first start playing around with it and Git, the underlying software that Github uses, can be frustrating at times. But once you get the hang of it, you can unlock some incredibly useful and powerful features.
+### 👋 
+
+This tutorial will walk you through uploading and editing documents on Github so that they will display on the YAM Governance Repository (This website!). Github can seem scary when you first start playing around with it and Git, the underlying software that Github uses, can be frustrating at times. But once you get the hang of it, you can unlock some incredibly useful and powerful features.
 
 This is a beginner tutorial, assuming you basically know nothing about github, and it focuses on using the github website to interact with git and github. At the end of the tutorial I will list some nice tools that make writing documents easier than doing everything on the Github website, but you can do everything without leaving it.
 
@@ -20,19 +22,19 @@ Once signed in, you want to navigate to the Github repository you want to edit o
 
 ### 3. Fork the Repo
 
-Once you are signed up and have navigated to the right page (as seen in the red rectangle above on the left), the first thing you need to do is fork the repository to make your own copy of the repository. This forked copy of the repository is you own personal copy that you make changes to and then submit those changes to the main repo. 
+Once you are signed up and have navigated to the right page (as seen in the red rectangle in the image below on the top-left), the first thing you need to do is fork the repository to make your own copy of the repository. This forked copy of the repository is you own personal copy that you make changes to and then submit those changes to the main repo. 
 
-![navigate-to-repo](/new-docs/Tutorials/images/1-repository%20to%20fork%20copy.png)
+![nav-to-repo](https://user-images.githubusercontent.com/58150151/185655470-56f77049-7a00-4a90-a9bb-5817f280371b.png)
 
-![fork](/new-docs/Tutorials/images/2-create%20fork%20copy.png) 
+![fork](https://user-images.githubusercontent.com/58150151/185655561-2dd9a899-c778-4dfb-9d75-cb32fdbed018.png)
 
 ### 4. Navigating around your Repo
 
 Once you have forked the repo, you will be able to see your copy on your own profile page. You can always get back to your profile page by clicking the icon in the top right, and your new forked repository should live under "your repositories". If you click into the repository you can see that it shows it has been forked and that it is up to date with the main repo.
 
-![see repos](/new-docs/Tutorials/images/3-see%20forked%20repo%20copy.png)
+![see-repos](https://user-images.githubusercontent.com/58150151/185655938-1be6596e-6c3e-4e6d-bac6-460d198904e9.png)
 
-![forked and up to date](/new-docs/Tutorials/images/4-in%20your%20forked%20repo%20copy.png)
+![fork-up-to-date](https://user-images.githubusercontent.com/58150151/185656063-66ce1a3b-b615-463c-b151-529878cece25.png)
 
 ### 5. Creating a new folder and file
 
@@ -40,13 +42,13 @@ If you are applying for a new grant then you will need to create the new files a
 
 Once you have named the file you can start adding content, but for now, lets just leave the new file blank and commit our changes. Committing changes is like saving your document. Github stores a copy of every committed file so that you can always go back to an old version. keep the default options selected (commit directly to the `master` branch) for now. Once you have commited the changes you should see them in your repository and the UI will show that your repo is a commit ahead of the original.
 
-![create new file](/new-docs/Tutorials/images/5-create%20new%20file%20copy.png)
+![create-new-file](https://user-images.githubusercontent.com/58150151/185656563-c9cbf54c-5ab0-41e7-a12b-142712b8a44b.png)
 
-![name new file](/new-docs/Tutorials/images/6-name%20new%20file%20copy.png)
+![name-new-file](https://user-images.githubusercontent.com/58150151/185656637-1888eb7b-4c46-40ad-94b2-035c8b0a4bf6.png)
 
-![commit new file](/new-docs/Tutorials/images/7-commit%20new%20file%20copy.png)
+![commit-new-file](https://user-images.githubusercontent.com/58150151/185656710-dcd28c65-779e-4fe7-a562-a471c1a565a7.png)
 
-![see changes](/new-docs/Tutorials/images/8-see%20new%20file%20in%20folder%20copy.png)
+![see changes](https://user-images.githubusercontent.com/58150151/185656791-49840f99-60e9-4a10-b636-a0b5368082c7.png)
 
 ### 6. Making more Changes
 
