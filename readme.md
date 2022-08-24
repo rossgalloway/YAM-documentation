@@ -1,1 +1,0 @@
-# YAM documentation repo

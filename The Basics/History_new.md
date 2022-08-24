@@ -1,13 +1,15 @@
 ---
-sidebar_position: 3
+sidebar_position: 2
 sidebar_label: "History"
 ---
 
 # History
 
+![Founders Designing YAM](/img/Ross__A_painting_by_john_trumbull_of_the_founding_fathers_signi_365bbb89-e682-4bc4-ba7e-7f1947ee6362.png)
+
 ## The Birth of YAM
 
-YAM was created in August of 2020 and released in a week long *fair launch* where two fifths of the supply was given away to the DeFi Community. This was a false start as a bug in the code required a migration to a new temporary token contract, before finally launching with corrected and audited code a month later in September. the YAM token was an experiment with a mechanism called rebasing (see ampleforth, but in a nutshell it is an accounting trick to move token volatility from price into supply) as a way to build a community managed treasury. YAM was designed so that as the price of the token increased, some of the value inherent in that increase flowed into the treasury ([the details are complicated](_rebasing_info.md)). This succeeded in building a $3 million dollar treasury for the DAO over a few months, controlled by YAM token holders. The purpose and use of this treasury was left open ended by the project creators, all of whom have now stepped away from the project to let it truly be community run.
+YAM was created in August of 2020 and released in a week long *fair launch* where two fifths of the supply was given away to the DeFi Community. This was a false start as a bug in the code required a migration to a new temporary token contract, before finally launching with corrected and audited code a month later in September. the YAM token was an experiment with a mechanism called rebasing (see ampleforth, but in a nutshell it is an accounting trick to move token volatility from price into supply) as a way to build a community managed treasury. YAM was designed so that as the price of the token increased, some of the value inherent in that increase flowed into the treasury ([the details are complicated](/rebasing_info)). This succeeded in building a $3 million dollar treasury for the DAO over a few months, controlled by YAM token holders. The purpose and use of this treasury was left open ended by the project creators, all of whom have now stepped away from the project to let it truly be community run.
 
 ## The death of Rebasing
 

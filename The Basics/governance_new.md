@@ -1,9 +1,11 @@
 ---
-sidebar_position: 4
+sidebar_position: 3
 sidebar_label: "Governance Overview"
 ---
 
 # Governance
+
+![Yam Voters deliberating](/img/Ross___painting_of_the_founding_fathers_signing_the_declaration_e259e7aa-f2d3-41f8-9826-ba0fcf607a5b.png)
 
 ## Overview
 
