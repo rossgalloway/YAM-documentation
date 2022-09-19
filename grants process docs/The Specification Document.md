@@ -1,20 +1,21 @@
 ---
 sidebar_position: 4
-sidebar_label: "Grants Process"
+sidebar_label: "Specification Document"
 ---
 
 # Grants Process
 
 ## Requirements Document
 
-The first document that is needed to accurately determine the value of the grants proposal is a requirements document. This is a type of specification document that clearly lays out the goals and requirements that the project intends to achieve. This document is of critical importance because it provides the information that YAM token holders will use to evaluate whether a grant has been successfully completed.
+The main document that is needed to accurately determine the value of the grants proposal is a Specification document. This document clearly lays out the goals and requirements that the project intends to achieve and the manner in which that will be done. This document is of critical importance because it provides the information that YAM token holders will use to evaluate whether a grant should be funded or not.
 
 ---
 
-**A requirements document may contain the following information:**
+**A specification document may contain the following information:**
 
 - What is the overall goal and purpose of the project?
 - What problem does the project solve?
+- What is the benefit to YAM and/or the wider ecosystem
 - Are there other potential ways to solve this problem? Why choose this one?
 - Who are the participants/users of the project
   - What role does each user type have?
@@ -32,16 +33,15 @@ The first document that is needed to accurately determine the value of the grant
 - Are there security assumptions built into this project? If so what are they?
 - Is it possible for any party to lose money via this project? How so?
 - Are there similar examples to the proposal that token holders can use to compare or understand the scope?
-- Timeframe expected to fulfill different parts of the scope, as well as full completion of the project.
-- Expected compensation for completion of the project and/or specific milestones.
+- How long is the project expected to take (roughly)?
 
 This list is not exhaustive and not all questions above will be relevant for all projects. Some projects may choose to split work up into smaller sections and so the requirements document may evolve and be added to over the course of multiple grants.
 
-## Requirements Document Pre-Grants
+## Specification Document Pre-Grants
 
-Formulating a strong requirements document takes time and effort. Because it is such an important document in assuring accountability and the functioning of a robust grant system, we believe that there should be a mechanism to compensate applicants who work in good faith with the DAO to create this document. Funding of a grant will often be contingent on this document, but simply having one will not assure that the main grant receives funding.
+Formulating a strong specification document takes time and effort. Because it is such an important document in assuring accountability and the functioning of a robust grant system, we believe that there should be a mechanism to compensate applicants who work in good faith with the DAO to create this document. Funding of a grant will often be contingent on this document, but simply having one will not assure that the main grant receives funding.
 
-The DAO should consider what kind of compensation it can offer for a well crafted requirements document even if the proposal is not ultimately approved by governance. This can also apply to requirements documents that are crafted as part of a Request for Proposal process. This is a relatively low stakes investment for the DAO and defrays the upfront costs to proposal writers.
+The DAO should consider what kind of compensation it can offer for a well crafted requirements document even if the grant proposal is not ultimately approved by governance. This can also apply to requirements documents that are crafted as part of a Request for Proposal process. This is a relatively low stakes investment for the DAO and defrays the upfront costs to proposal writers.
 
 ## The Process in Practice
 

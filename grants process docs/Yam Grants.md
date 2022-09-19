@@ -26,3 +26,53 @@ We imagine 2 different Types of Grants: BYOP (Bring Your Own Project) and RFP (R
 ## Grant Requirements
 
 Because Grants are contracts between YAM token holders and another party, They are expected to be thorough and include all the required specifications needed by both parties to determine whether the work promised matches the work done. The quality of these contracts determines the success of the Grants program. Grant recipients are partially at the mercy of YAM token holders, who hold the keys to pay out the grant, but unfair practices and non-payment will quickly lead to a lack of trust and inability for the DAO to get more work. In this way, the grants program can be modelled as a [continuous game](https://en.wikipedia.org/wiki/Continuous_game) in which both parties are better off continuing to cooperate instead of defecting for short term gain. It is in the best interests of the DAO to pay consistently, and in order to do so and limit it’s own risk, the DAO must be very clear to specify what it expects out of the work to be done.
+
+## Grant Proposal Flow
+
+### **Step 1:** Project Creation and Definition
+
+Define and specify your project. This is the information that Token holders will use to determine whether to move forward with the project. This is where you pitch your idea and get everyone excited! The primary document for this work is the Project Specification Document (like this one). It can be supplemented with a marketing document if the author believes that will help sell the project to token holders.
+
+`Project Specification`: More thorough document explaining the workings of the project. Scope, Goals, requirements, users and user flows, risks, comparables, expected deliverables, etc. What exactly is the DAO funding and what will the project do when complete.
+
+`Project Marketing Document` (optional): High level document that is intended for a more casual audience explaining why this project is cool/important and should be funded.
+
+Once posted to the YAM Forum, YAM token holders should give feedback on whether this is work they want to fund. This feedback should be incorporated into the first grant proposal. The Facilitators (Gov-Ops Council) is available to help with formatting and coordination. They should help the applicant get feedback from important stakeholders to understand what their next steps should be.
+
+### :running_man: Milestone 1: Post Specification Document and recieve feedback
+
+![milestone 1](220919-process%201.png)
+
+### Step 2: Grant Proposal
+
+After receiving feedback on the project, the next step is for the person(s) who plan to work on the project to submit a `Grant Proposal`. This grant proposal references the project documents, delineates what parts of the project they expect to work on, and makes a specific compensation request and set of deliverables.
+
+There will be a snapshot vote on the `Grant Proposal` once it has been submitted to the forums. YAM token holders vote to approve a specific grant request to fund work on the project. If they vote `YES` then the grantee should begin work immediately. If `NO` then the applicant should revise the application or drop it. If dropped, token holders can shop the project around or wait for someone else to bid on the work.
+
+### :running_man: Milestone 2: Discussion and Grant Approval Vote
+
+![milestone 2](./220919-process%202.png)
+
+### Step 3: Work and Reporting
+
+Grant recipients should now be working on the project. Based on the terms of their `Grant Proposal`, they will submit intermittent `Status/Transparency reports` and open-source their code and/or research in order to release grant funds. Grants can be written to fund a specific scope of work, with progress payments along the way. This is typically done on a monthly cadence, with transparency reports submitted in the first 5 days of the month.
+
+### :running_man:Milestone 3: - Progress Report
+
+![milestone 3](./220919-process%203.png)
+
+### Step 4: Grant Payment
+
+Upon submission of a `Status/Transparency report`, token holders have a 3 day window to dispute the payment. If it is not disputed, it is added to the monthly on-chain transaction (with the other approved payments), which is executed via a token vote.
+
+### :running_man:Milestone 4: - Grant Payment
+
+![milestone 4](./220919-process%204.png)
+
+### Step 5: Completion and Potential Renewal
+
+After the completion of the work and full payment of the grant, the process can be repeated for additional scope of work by submitting a new `Grant Proposal` (start over at step 2). This iterative process allows for flexibility in the system and allows token holders to re-affirm their approval of the work being done.
+
+### :running_man:Milestone 5: - Grant Renewal
+
+![milestone 5](./220919-process%205b.png)
